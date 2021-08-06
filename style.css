@@ -305,3 +305,22 @@ justify-content: space-around;
     font-weight: bold;
     text-align: center;
 }
+/* media querie */
+/* mobile devices------
+-------- */
+
+@media only screen and (max-width:688px) {
+    #conteiner{
+        width: 40%;
+    }
+    #navbar ul #login{
+        width: 10%;
+    }
+    .content{
+        width: 20%;
+    }
+    .players{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    
+}
