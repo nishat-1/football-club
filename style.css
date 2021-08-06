@@ -301,3 +301,7 @@ justify-content: space-around;
 .social-icon ul li:nth-child(5) a:hover {
     background-color: #0077B5;
 }
+#copyright{
+    font-weight: bold;
+    text-align: center;
+}
